@@ -9,6 +9,10 @@ class AppTheme {
       useMaterial3: true,
       scaffoldBackgroundColor: AppColors.scaffoldBackgroundColor,
       primarySwatch: Colors.orange,
+      appBarTheme: const AppBarTheme(
+        foregroundColor: AppColors.primaryColor,
+        backgroundColor: Colors.transparent,
+      ),
     );
   }
 }

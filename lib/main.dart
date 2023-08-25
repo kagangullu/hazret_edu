@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hazret_edu/feature/view/onboard/onboard_view.dart';
 import 'package:hazret_edu/product/init/theme/app_theme.dart';
 
 void main() {
@@ -12,8 +13,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Hazret Edu",
+      debugShowCheckedModeBanner: false,
       theme: AppTheme(context).theme,
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const OnboardView(),
     );
   }
 }
